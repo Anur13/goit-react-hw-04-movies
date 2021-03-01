@@ -1,0 +1,12 @@
+.LinksList {
+  display: flex;
+  flex-direction: column;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+}
+.listItem {
+  margin-top: 20px;
+}

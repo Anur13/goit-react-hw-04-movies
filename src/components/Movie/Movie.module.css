@@ -1,0 +1,17 @@
+.Movie {
+  display: flex;
+}
+.info {
+  padding-left: 20px;
+}
+.review {
+  text-transform: uppercase;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(121, 117, 9, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
